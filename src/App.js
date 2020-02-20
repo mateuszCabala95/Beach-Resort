@@ -8,11 +8,12 @@ import Home from "./pages/Home/Home";
 import Rooms from "./pages/Rooms/Rooms";
 import SingleRoom from "./pages/SingleRoom/SingleRoom";
 import Error from "./pages/Error/Error";
-
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
     return (
         <div>
+            <Navbar/>
             <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/rooms/' component={Rooms}/>
