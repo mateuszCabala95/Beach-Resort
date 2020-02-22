@@ -3,8 +3,7 @@ import Hero from "../../Components/Hero/Hero";
 import Banner from "../../Components/Banner/Banner";
 import Services from "../../Components/Services/Services";
 import FeaturedRoom from "../../Components/FeaturedRoom/FeaturedRoom";
-
-
+import StyledHero from "../../Components/Hero/StyledHero";
 import {Link} from 'react-router-dom'
 
 const Home = () => {
@@ -22,6 +21,7 @@ const Home = () => {
             </Hero>
             <Services/>
             <FeaturedRoom/>
+            <StyledHero/>
         </React.Fragment>
     )
 };
