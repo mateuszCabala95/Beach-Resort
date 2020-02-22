@@ -1,19 +1,19 @@
-import room1 from "./details-1.jpeg";
-import room2 from "./details-2.jpeg";
-import room3 from "./details-3.jpeg";
-import room4 from "./details-4.jpeg";
-import img1 from "./room-1.jpeg";
-import img2 from "./room-2.jpeg";
-import img3 from "./room-3.jpeg";
-import img4 from "./room-4.jpeg";
-import img5 from "./room-5.jpeg";
-import img6 from "./room-6.jpeg";
-import img7 from "./room-7.jpeg";
-import img8 from "./room-8.jpeg";
-import img9 from "./room-9.jpeg";
-import img10 from "./room-10.jpeg";
-import img11 from "./room-11.jpeg";
-import img12 from "./room-12.jpeg";
+import room1 from "../src/images/details-1.jpeg";
+import room2 from "../src/images/details-2.jpeg";
+import room3 from "../src/images/details-3.jpeg";
+import room4 from "../src/images/details-4.jpeg";
+import img1 from "../src/images/room-1.jpeg";
+import img2 from "../src/images/room-2.jpeg";
+import img3 from "../src/images/room-3.jpeg";
+import img4 from "../src/images/room-4.jpeg";
+import img5 from "../src/images/room-5.jpeg";
+import img6 from "../src/images/room-6.jpeg";
+import img7 from "../src/images/room-7.jpeg";
+import img8 from "../src/images/room-8.jpeg";
+import img9 from "../src/images/room-9.jpeg";
+import img10 from "../src/images/room-10.jpeg";
+import img11 from "../src/images/room-11.jpeg";
+import img12 from "../src/images/room-12.jpeg";
 
 export default [
   {

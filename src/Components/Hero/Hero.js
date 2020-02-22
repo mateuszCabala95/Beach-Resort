@@ -1,7 +1,7 @@
 import React from "react";
 
 const Hero = ({children, hero}) => {
-
+    //set background image
 
     return (
         <header className={hero}>
