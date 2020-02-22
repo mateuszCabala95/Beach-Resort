@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 
 
 const Room = ({room}) => {
-    console.log(room);
+    // console.log(room);
     const {name, slug, images, price} = room;
 
     return (

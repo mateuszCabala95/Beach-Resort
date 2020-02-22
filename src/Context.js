@@ -17,12 +17,13 @@ class RoomProvider extends React.Component {
         let rooms = this.formatData(items);
         let featuredRooms = rooms.filter(room => room.featured === true);
         this.setState({
-            rooms:rooms,
-            featuredRooms:featuredRooms,
-            sortedRooms:rooms,
-            isLoading:false,
+            rooms: rooms,
+            featuredRooms: featuredRooms,
+            sortedRooms: rooms,
+            isLoading: false,
         })
     }
+
 
     formatData = (item) => {
         let tepmItem = items.map(item => {
@@ -36,11 +37,17 @@ class RoomProvider extends React.Component {
         return tepmItem;
     };
 
+    getRoom = (slug) => {
+let tempRooms = [...this.state.rooms];
+        const room = tempRooms.find(room => room.slug === slug);
+        return room;
+    };
+
     render() {
 
 
         return (
-            <RoomContext.Provider value={this.state}>
+            <RoomContext.Provider value={{...this.state, getRoom: this.getRoom}}>
                 {this.props.children}
             </RoomContext.Provider>
         );
