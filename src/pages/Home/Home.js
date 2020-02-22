@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from "../../Components/Hero/Hero";
 import Banner from "../../Components/Banner/Banner";
 import Services from "../../Components/Services/Services";
+import FeaturedRoom from "../../Components/FeaturedRoom/FeaturedRoom";
+
 
 import {Link} from 'react-router-dom'
 
@@ -19,6 +21,7 @@ const Home = () => {
                 </Banner>
             </Hero>
             <Services/>
+            <FeaturedRoom/>
         </React.Fragment>
     )
 };
